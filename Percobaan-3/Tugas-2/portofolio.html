@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Gaya Umum */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: #2a2a2a;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #1e293b; 
+      color: #ffffff;
+      padding: 1rem;
+      text-align: left;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: right;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #3b82f6; 
+    }
+
+    /* Konten Utama */
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+
+    } h1 {
+      color: #ffffff; 
+      font-size: medium;
+    }
+
+    h2 {
+      color: #1e40af; 
+    }
+
+    /* Galeri Portofolio */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #1e293b;
+      color: #ffffff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    footer ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    footer ul li a:hover {
+      color: #3b82f6;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <header>
+    <h1>Yuyun A. Afrianty</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#tentang">Tentang Saya</a></li>
+        <li><a href="#portofolio">Portofolio</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ 
+  <main>
+    
+    <section id="tentang">
+      <h2>Tentang Saya</h2>
+      <p>Halo! Saya Yuyun Aulia Afrianty, Anak ke 4 dari 4 bersaudara dan anak perumpuan satusatunya.
+        saya menyukai sesuatu yang berbau dengan olahraga, apapun olahraga itu akan saya lakukan kecuali berenang
+        karena saya tidak tau berenang. saya mengikuti bela diri taekwondo sejak saya menginjak bangku sd,
+        saya mengikuti taekwondo karena mengikuti jejak kaka ke 3 saya yang mengikuti taekwondo juga.
+        kedua orang tua saya bekerja sebagai pns di RRi Palu, dan ketiga kakak saya sudah kerja di bidangnya masing masing.
+        saya sangat menyukai warna biru, apapu itu jika warna biru pasti bisa membuat saya suka. saya sangat aktif di sd dan smp, disd
+        saya mengikuti pramuka dan mengikuti lomba atletik dan badminton, pernah menjadi instruksi senam juga. di smp saya semakin aktif
+        dengan mengikuti osis, drumband, dan juga paskibraka. saya sempat mejadi ketua kelsa di smp pada saat dikelas 9. namun, keaktifan Saya
+        hilang semenjak saya menginjakkan kaki di sma, mengapa bisa mungkin di karena masa sma saya lebih banyak online, atau bisa dibilang 
+        zaman covid. saya rasa sekian perkenalan mengenai saya.
+      </p>
+    </section>
+
+    <section id="portofolio">
+      <h2>Portofolio</h2>
+      <div class="gallery">
+        <img src="./img/satu.jpg" alt="Proyek 1">
+        <img src="./img/dua.jpg" alt="Proyek 2">
+        <img src="./img/tiga.jpg" alt="Proyek 3">
+        <img src="./img/empat.jpg" alt="Proyek 4">
+        <img src="./img/lima.jpg" alt="Proyek 5">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Kontak Saya:</p>
+    <ul>
+      <li><a href="Yuyunauliaafriyanti123@gmail.com" >Email</a></li>
+      <li><a href="https://www.linkedin.com/in/username">LinkedIn</a></li>
+      <li><a href="https://github.com/username">GitHub</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
