@@ -1,0 +1,129 @@
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: rgb(85, 137, 165);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: rgb(216, 216, 216);
+    border-radius: 5px;
+}
+
+
+.nav a {
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background: #f8f9fa;
+    color: black;
+    border-radius: 15px;
+}
+
+.hero p{
+    text-align: justify;
+}
+
+.video {
+    padding: 2rem;
+    background-color: rgb(85, 137, 165);
+    color: rgb(216, 216, 216);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    padding: 1rem;
+    background: whitesmoke;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    color: black;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+img{
+    display: inline;
+    justify-content: space-between;
+    width: 45%;
+}
+
+
+.profile {
+    padding: 1rem;
+    background: linear-gradient(to right, #ffffff, #f8f9fa);
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+.profile-container {
+    display: flex; 
+    align-items: center; 
+    gap: 1rem; 
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #3b5998;
+}
+
+.info {
+    flex-grow: 1; 
+    text-align: left; 
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5; 
+}
+
+.info p {
+    margin: 0; 
+    font-family: 'Arial', sans-serif;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+}
+.footer a{
+    color: black;
+}
